@@ -116,6 +116,9 @@ header {
 }
 
 //mainpic
+main {
+  margin-top: 65px;
+}
 .mainpic {
   width: 150px;
   height: 150px;
@@ -532,8 +535,8 @@ $chartBarGap: 10px;
   opacity: 0;
   animation: 1s anim-lightspeed-in ease forwards;
 
-  .chart--dev & {
-  }
+  // .chart--dev & {
+  // }
   .chart--prod & {
     animation-delay: 2s;
   }
